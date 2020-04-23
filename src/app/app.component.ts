@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'my-app',
@@ -13,11 +14,15 @@ export class AppComponent  {
   i = 0
   Gambar = [1, 2, 3, 4]
 
-  KlikButton()
-  {
-    for (this.i = 0; this.i < this.a; this.i++){
+  constructor(private router: Router){
 
-    }
-    this.Gambar = new String[this.a];
+  }
+
+  login(){
+    this.router.navigate(['/login']);
+  }
+  
+  detail(){
+    this.router.navigate(['/detail', 4]);
   }
 }

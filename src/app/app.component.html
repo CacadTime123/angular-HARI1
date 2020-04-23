@@ -7,3 +7,11 @@
 <div *ngFor="let item of Gambar">
   {{item}}
 </div>
+
+<a routerLink="/login">Login</a>
+<a routerLink="/detail/3">Login</a>
+
+<router-outlet></router-outlet>
+
+<button (click)="login()">LOGIN</button>
+<button (click)="detail()">DETAIL</button>
