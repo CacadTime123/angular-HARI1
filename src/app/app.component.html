@@ -13,5 +13,22 @@
 
 <router-outlet></router-outlet>
 
-<button (click)="login()">LOGIN</button>
-<button (click)="detail()">DETAIL</button>
+<button (click)="login()">LOGIN</button><br>
+<!-- <button (click)="detail()">DETAIL</button> -->
+
+<input [(ngModel)]="nilai1"><input [(ngModel)]="operator"><input [(ngModel)]="nilai2"><br>
+<button (click)="angka1()">1</button>
+<button (click)="angka2()">2</button>
+<button (click)="angka3()">3</button><br>
+<button (click)="angka4()">4</button>
+<button (click)="angka5()">5</button>
+<button (click)="angka6()">6</button><br>
+<button (click)="angka7()">7</button>
+<button (click)="angka8()">8</button>
+<button (click)="angka9()">9</button><br>
+<button (click)="angkatambah()">+</button>
+<button (click)="angkakurang()">-</button>
+<button (click)="angkakali()">*</button>
+<button (click)="detail()">=</button>
+<br>
+<input [(ngModel)]="i">

@@ -18,7 +18,7 @@ const ROUTES: Routes =[
 
 @NgModule({
   imports:[BrowserModule,FormsModule,RouterModule.forRoot(ROUTES)],
-  declarations: [AppComponent, HelloComponent, HomeComponent,LoginComponent],
+  declarations: [AppComponent, HelloComponent, HomeComponent,LoginComponent, DetailComponent],
   bootstrap: [ AppComponent ]
 })
 
